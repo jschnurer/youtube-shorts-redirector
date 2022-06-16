@@ -9,3 +9,8 @@ The extension becomes active for any `*.youtube.com/*` url, not just when you vi
 If the extension was only active at urls like `*.youtube.com/shorts/*`, if you start out browsing `youtube.com`, this extension wouldn't load. Then, when you clicked a short video, it would replace the url in the browser but not actually reload this extension.
 
 To get around this, the extension loads for all youtube urls and then watches changes to the url. Whenever you change to one of the shorts urls, it will redirect to the desktop layout for that video instead.
+
+# Source Code
+Visit the project's source code at Git Hub.
+
+https://github.com/jschnurer/youtube-shorts-redirector
